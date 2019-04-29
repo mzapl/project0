@@ -45,6 +45,10 @@ h3{
 	margin-right: auto;
 }
 
+.dataheader{
+	background-color: lightgray;
+}
+
 .datacell{
 	padding-left: 6px;
 	padding-right: 6px;
