@@ -2,29 +2,41 @@
 <html>
     <head>
         <title>I like trains...</title>
-        <meta name="viewport" content="width = device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
+
+    <script src="https://unpkg.com/popper.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
     </head>
     <body>
 
-    <ul>
-        <li><a href="index.html"> Main </a></li>
-        <li><a href="movies.html"> Funny clips </a></li>
-        <li><a href="train1.html"> TGV POS </a></li>
-        <li><a href="train2.html"> TGV Atlantique </a></li>
-        <li><a href="train3.html"> CRH380B/BL </a></li>
-        <li><a href="train4.html"> CRH380A </a></li>
-        <li><a href="train5.html"> Zefiro 380 </a></li>
+
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item"><a class="nav-link" href="index.html"> Main </a></li>
+        <li class="nav-item"><a class="nav-link" href="movies.html"> Funny train clips </a></li>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Top Trains
+            </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="train1.html"> TGV POS </a>
+        <a class="dropdown-item" href="train2.html"> TGV Atlantique </a>
+        <a class="dropdown-item" href="train3.html"> CRH380B/BL </a>
+        <a class="dropdown-item" href="train4.html"> CRH380A </a>
+        <a class="dropdown-item" href="train5.html"> Zefiro 380 </a>
+        </div>
+        </div>
     </ul>
 
-    <div id="display">
-        <img class="disp" src="images/train3.jpg" >
-    </div>
 
-    <div id="description">
+    <img class="img-fluid mx-auto d-block" src="images/train3.jpg" >
+
+
+    <blockquote class="blockquote">
         <h1>CRH380B/BL</h1>
-    </div>
-        <h3>In March 2009, a new contract was signed with China Northern Railways (CNR) to supply 100 16-car trainsets for 39.2B RMB with delivery from October 2010 onwards. This order for a total of 1600 railway cars is greater than the total production of all Velaro and ICE trains that have ever been manufactured in the past. It is planned that the trains will be produced by CNR subsidiaries, Tangshan Railway Vehicle and Changchun Railway Vehicles, using technology from the previous technology transfer agreement. In this contract, Siemens acts as a component supplier, with 85% of the content actually made by the company.[14] An additional order for 40 16-car sets and 40 8-car sets was made on 28 September 2009 for 25.32B RMB.[15]
+    </blockquote>
+        <p class="mb-0">In March 2009, a new contract was signed with China Northern Railways (CNR) to supply 100 16-car trainsets for 39.2B RMB with delivery from October 2010 onwards. This order for a total of 1600 railway cars is greater than the total production of all Velaro and ICE trains that have ever been manufactured in the past. It is planned that the trains will be produced by CNR subsidiaries, Tangshan Railway Vehicle and Changchun Railway Vehicles, using technology from the previous technology transfer agreement. In this contract, Siemens acts as a component supplier, with 85% of the content actually made by the company.[14] An additional order for 40 16-car sets and 40 8-car sets was made on 28 September 2009 for 25.32B RMB.[15]
 
 Top travel speed for this variant is 380 km/h (236 mph), though it is capable of attaining even higher speeds.[16] These trains have been designated as CRH380B (8-car set) and CRH380BL (16-car set) in September 2010.[17] The first CRH380BL set with series number CRH380B-6401L rolled off the production line and was unveiled to the public in September 2010. it was manufactured by Tangshan Railway Vehicle.[18] On October 2010, the 16-car train was sent to Beijing loop line for test. On November 2010, the train was sent to Beijing-Shanghai High-Speed Railway for trial run. The trainset reached the maximum speed of 457 km/h (284 mph) on 5 December 2010.[19] More recently, during a subsequent test on 10 January 2011, a CRH380BL set reached a new record speed of 487.3 km/h (302.8 mph), breaking the previous record held by the CRH380A.[20]
 
@@ -32,8 +44,8 @@ Since 13 January 2011, the CRH380BL enter regular service at the Shanghai–Hang
 
 All 54 CRH380BL trainsets were recalled in mid-August 2011 due to operational problems on the new Beijing–Shanghai High-Speed Railway. The new trains were reported as being "too sensitive" and the subject of frequent breakdowns in stormy weather. They will be temporarily replaced by the CRH380A and CRH380AL.
 
-As of December 2011, the recalled trainsets have returned to service.</h3>
-    </div>
+As of December 2011, the recalled trainsets have returned to service.</p>
+
 
     </body>
 </html>
