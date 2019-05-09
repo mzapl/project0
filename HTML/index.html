@@ -2,38 +2,28 @@
 <html>
     <head>
         <title>I like trains...</title>
-
-    <script src="popper.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../styles.css">
 
     </head>
     <body>
 
 
+    <!--NAVBAR-->
     <ul class="nav nav-pills nav-fill">
         <li class="nav-item"><a class="nav-link active" href="index.html"> Main </a></li>
         <li class="nav-item"><a class="nav-link" href="movies.html"> Funny train clips </a></li>
-        <div class="dropdown">
-            <button class="btn btn-active dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <b>Top Trains</b>
-            </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="train1.html"> TGV POS </a>
-        <a class="dropdown-item" href="train2.html"> TGV Atlantique </a>
-        <a class="dropdown-item" href="train3.html"> CRH380B/BL </a>
-        <a class="dropdown-item" href="train4.html"> CRH380A </a>
-        <a class="dropdown-item" href="train5.html"> Zefiro 380 </a>
-        </div>
-        </div>
+        <li class="nav-item"><a class="nav-link" href="train1.html"> TGV POS </a></li>
+        <li class="nav-item"><a class="nav-link" href="train2.html"> TGV Atlantique </a></li>
+        <li class="nav-item"><a class="nav-link" href="train3.html"> CRH380B/BL </a></li>
+        <li class="nav-item"><a class="nav-link" href="train4.html"> CRH380A </a></li>
+        <li class="nav-item"><a class="nav-link" href="train5.html"> Zefiro 380 </a></li>
     </ul>
 
-    <img class="rounded mx-auto d-block" src="images/main.png" >
 
-    <div class="blockquote text-center">
-        <h1>Top 5 high-speed trains currently or soon in service</h1>
-    </div>
+    <img class="rounded mx-auto d-block" src="../images/main.png" >
+    <h1>Top 5 high-speed trains currently or soon in service</h1>
+
 
     <table class="table table-bordered">
         <thead>
@@ -51,7 +41,7 @@
                 <td class="datacell">Alstom</td>
                 <td class="datacell">574.8</td>
                 <td class="datacell">2006</td>
-                <td class="datacell"><a href="images/train1.jpg" target="_blank">link</a> </td>
+                <td class="datacell"><a href="../images/train1.jpg" target="_blank">link</a> </td>
             </tr>
             <tr>
                 <td class="datacell">TGV Atlantique</td>
@@ -59,7 +49,7 @@
                 <td class="datacell">Alstom</td>
                 <td class="datacell">515.3</td>
                 <td class="datacell">1989</td>
-                <td class="datacell"><a href="images/train2.jpg" target="_blank">link</a> </td>
+                <td class="datacell"><a href="../images/train2.jpg" target="_blank">link</a> </td>
             </tr>
             <tr>
                 <td class="datacell">CRH380B, BL & CL</td>
@@ -67,7 +57,7 @@
                 <td class="datacell">Siemens, CNR Tangshan, CNR Changchun</td>
                 <td class="datacell">487.3</td>
                 <td class="datacell">2011</td>
-                <td class="datacell"><a href="images/train3.jpg" target="_blank">link</a> </td>
+                <td class="datacell"><a href="../images/train3.jpg" target="_blank">link</a> </td>
             </tr>
             <tr>
                 <td class="datacell">CRH380A & AL</td>
@@ -75,7 +65,7 @@
                 <td class="datacell">CSR Sifang</td>
                 <td class="datacell">486.1</td>
                 <td class="datacell">2010</td>
-                <td class="datacell"><a href="images/train4.jpg" target="_blank">link</a> </td>
+                <td class="datacell"><a href="../images/train4.jpg" target="_blank">link</a> </td>
             </tr>
             <tr>
                 <td class="datacell">CRH380D & DL</td>
@@ -83,11 +73,15 @@
                 <td class="datacell">Bombardier, CSR Sifang</td>
                 <td class="datacell">483</td>
                 <td class="datacell">2012</td>
-                <td class="datacell"><a href="images/train5.jpg" target="_blank">link</a> </td>
+                <td class="datacell"><a href="../images/train5.jpg" target="_blank">link</a> </td>
             </tr>
         </tbody>
     </table>
 
+    <div class="alert alert-primary" role="alert">
+        This site was created for educational purposes only. It does not collect any of your data.
+                   Actually it does not really do anything yet.
+    </div>
 
     </body>
 </html>

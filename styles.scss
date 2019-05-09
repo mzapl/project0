@@ -1,0 +1,33 @@
+$font_color: dodgerblue;
+$font_shadow_color: lightblue;
+
+
+
+h1 {
+    font-family: "Helvetica", Times, serif;
+    font-size: 21 px;
+    font-weight: bold;
+    text-align: center;
+    color: $font_color;
+    text-shadow: 3px 2px $font_shadow_color;
+    letter-spacing: 3px;
+}
+
+#movies {
+    background-color: $font_shadow_color;
+    margin: 20 px;
+    padding: 20 px;
+
+    li{
+        text-align: center;
+        margin: 20px;
+        border: 1px $font_shadow_color;
+    a{
+        font-weight: bold;
+        text-size: 21 px;
+        text-color: $font_color;
+        text-shadow: $font_shadow_color;
+    }
+    }
+
+}

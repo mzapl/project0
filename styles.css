@@ -1,0 +1,28 @@
+h1 {
+  font-family: "Helvetica", Times, serif;
+  font-size: 21 px;
+  font-weight: bold;
+  text-align: center;
+  color: dodgerblue;
+  text-shadow: 3px 2px lightblue;
+  letter-spacing: 3px;
+}
+
+#movies {
+  background-color: lightblue;
+  margin: 20 px;
+  padding: 20 px;
+}
+#movies li {
+  text-align: center;
+  margin: 20px;
+  border: 1px lightblue;
+}
+#movies li a {
+  font-weight: bold;
+  text-size: 21 px;
+  text-color: dodgerblue;
+  text-shadow: lightblue;
+}
+
+/*# sourceMappingURL=styles.css.map */
