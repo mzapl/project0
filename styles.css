@@ -10,19 +10,28 @@ h1 {
 
 #movies {
   background-color: lightblue;
-  margin: 20 px;
-  padding: 20 px;
+  margin: 20px;
+  padding: 20px;
 }
 #movies li {
   text-align: center;
-  margin: 20px;
+  margin: 10px;
   border: 1px lightblue;
 }
 #movies li a {
   font-weight: bold;
-  text-size: 21 px;
+  text-size: 21px;
   text-color: dodgerblue;
   text-shadow: lightblue;
+}
+
+img {
+  display: block;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+  max-heigth: 50%;
 }
 
 /*# sourceMappingURL=styles.css.map */
